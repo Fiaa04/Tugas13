@@ -1,12 +1,12 @@
 <?php
 $host = "localhost";
 $user = "xirpl1-11"; 
-$pass = "0098375178";  
+$pass = "0098375178";        
 $db   = "db_xirpl1-11_1"; 
 
 $koneksi = mysqli_connect($host, $user, $pass, $db);
 
 if (!$koneksi) {
-    die("Koneksi gagal: " . mysqli_connect_error());
+    die("Koneksi database gagal: " . mysqli_connect_error());
 }
 ?>
