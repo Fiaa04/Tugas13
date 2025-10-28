@@ -1,15 +1,12 @@
 <?php
-// Konfigurasi koneksi ke database MySQL
 $host = "localhost";
-$user = "xirpl1-11";        // default user XAMPP
-$pass = "0098375178";            // kosongkan jika tidak ada password
-$db   = "db_xirpl1-11_1"; // ganti sesuai nama database kamu di phpMyAdmin
+$user = "xirpl1-11";        
+$pass = "0098375178";       
+$db   = "db_xirpl1-11_1";   
 
-// Membuat koneksi
 $koneksi = mysqli_connect($host, $user, $pass, $db);
 
-// Mengecek koneksi
 if (!$koneksi) {
-    die("Koneksi database gagal: " . mysqli_connect_error());
+    die("Koneksi gagal: " . mysqli_connect_error());
 }
 ?>
