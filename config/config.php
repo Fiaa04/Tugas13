@@ -1,8 +1,8 @@
 <?php
 // Konfigurasi koneksi ke database MySQL
 $host = "localhost";
-$user = "root";        // default user XAMPP
-$pass = "";            // kosongkan jika tidak ada password
+$user = "xirpl1-11";        // default user XAMPP
+$pass = "0098375178";            // kosongkan jika tidak ada password
 $db   = "db_xirpl1-11_1"; // ganti sesuai nama database kamu di phpMyAdmin
 
 // Membuat koneksi
